@@ -1,0 +1,170 @@
+ *{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: rgb(128, 89, 31);
+
+
+}
+.header{
+    background-color: aliceblue;
+    color: rgba(226, 158, 93, 0.825);
+    padding: 5px 0;
+    text-align: center;
+}
+.header h1{
+    color: brown;
+    
+}
+nav ul{
+    color: burlywood;
+    list-style: none ;
+    /* isse bullet points nhi dikhenge. */
+    display: flex; 
+    /* content ek line me ek sath hi aa jayega.*/
+     justify-content: center;
+    padding: 10px 0;
+}
+nav ul li{
+    margin: 0 15px;
+    
+}
+nav ul li a{
+    color: rgb(30, 131, 98);
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    
+}
+.main_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left_frame, .right_frame, .centre_frame{
+    width: 30% ;
+    padding: 15px;
+    background-color: bisque; 
+    border-radius: 5px; 
+     box-shadow: 0 0 10px rgba(0,0,0,1);
+} 
+.left_frame ul{
+    list-style: none;
+}
+.left_frame li{
+    margin: 10px 0;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background: rgb(230, 131, 74);
+    color: #a13535;
+    position:fixed;
+    width: 100% ;
+    bottom: 0;
+
+} 
+/*  style for catalogue table */
+ .catalogue_table table{
+    width: 100%;
+    border-collapse:collapse ;
+
+}
+.catalogue_table th, .catalogue_table td{
+    padding: 10px;
+    border: 1.5px solid #090505;
+    text-align: center;
+
+}
+.catalogue_table th{
+    background: rgb(197, 154, 99);
+    
+}
+.catalogue_table tr:nth-child(odd){
+    background: rgb(238, 201, 149);
+}
+.catalogue_table tr:nth-child(even){
+    background: rgb(207, 176, 130);
+}  
+
+
+
+/* form part */
+form {
+  border:none;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #ac713aa7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  justify-content: center;
+  
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+label{
+  margin-left: 650px;
+}
